@@ -41,7 +41,7 @@ cd ../API
 ```bash
 yarn install
 ```
-6. Create a .env file in the API directory and add your MongoDB URL, JWT Secret and Client URL.
+6. Create a .env file in the API directory and add your MongoDB URL, JWT Secret and Client URL there.
 7. Start the backend server:
 ```bash
 nodemon index.js
