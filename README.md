@@ -54,12 +54,15 @@ yarn run dev
 ## Screenshots
 
 1. Login Page
+   
    ![Login](https://github.com/user-attachments/assets/46b9c393-0162-4925-8e22-9d9b6cf3510a)
 
-2. Register Page
+3. Register Page
+   
    ![Register](https://github.com/user-attachments/assets/4d96ea55-d0de-4987-9fdf-4707f6831f2f)
 
-3. Chat Page
+5. Chat Page
+   
    ![Chat](https://github.com/user-attachments/assets/51c9c698-69e4-4d8a-8426-bba76add80b2)
 
 
