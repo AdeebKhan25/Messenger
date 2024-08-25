@@ -20,7 +20,35 @@ Welcome to the **Messenger App**! This application allows users to chat in real-
 
 To get started with this project locally, follow these steps:
 
-1. **Clone the Repository**: git clone https://github.com/YourUsername/Messenger.git
-2. **Install Dependencies**
-3. **Start the Development Server**
+1. Clone the Repository:
+```bash
+git clone https://github.com/YourUsername/Messenger.git
+cd Messenger
+```
+2. Navigate to the Client Directory:
+```bash
+cd client
+```
+3. Install dependencies:
+```bash
+yarn install
+```
+4. Navigate to the API Directory:
+```bash
+cd ../API
+```
+5. Install dependencies:
+```bash
+yarn install
+```
+6. Create a .env File in the API directory and add your MongoDB URL and other environment variables like JWT Secret and Client URL.
+7. Start the backend server:
+```bash
+nodemon index.js
+```
+8. Start the frontend client:
+```bash
+yarn run dev
+```
+
 
