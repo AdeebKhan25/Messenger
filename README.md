@@ -46,7 +46,7 @@ yarn install
 ```bash
 nodemon index.js
 ```
-8. Start the frontend client:
+8. Start the frontend development sever:
 ```bash
 yarn run dev
 ```
