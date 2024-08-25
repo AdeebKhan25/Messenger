@@ -16,7 +16,7 @@ Welcome to the **Messenger App**! This application allows users to chat in real-
 - **Database**: MongoDB (using Mongoose)
 - **WebSockets**: WS (Node package)
 
-<h2>Getting Started</h2>
+## Getting Started
 
 To get started with this project locally, follow these steps:
 
