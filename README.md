@@ -5,7 +5,7 @@ Welcome to the **Messenger App**! This application allows users to chat in real-
 ## Features
 
 - **Real-time Messaging**: Exchange messages instantly using WebSockets.
-- **File Sharing**: Upload and view images directly within the chat interface.
+- **File Sharing**: Upload and download files. Send and receive images directly within the chat interface.
 - **User Authentication**: Secure login and logout functionality.
 - **Offline Support**: Displays offline users and handles messages appropriately.
 
@@ -14,7 +14,7 @@ Welcome to the **Messenger App**! This application allows users to chat in real-
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
 - **Database**: MongoDB (using Mongoose)
-- **WebSockets**: ws
+- **WebSockets**: WS (Node package)
 
 <h2>Getting Started</h2>
 
@@ -22,7 +22,7 @@ To get started with this project locally, follow these steps:
 
 1. Clone the Repository:
 ```bash
-git clone https://github.com/YourUsername/Messenger.git
+git clone https://github.com/AdeebKhan25/Messenger.git
 cd Messenger
 ```
 2. Navigate to the Client Directory:
@@ -41,7 +41,7 @@ cd ../API
 ```bash
 yarn install
 ```
-6. Create a .env File in the API directory and add your MongoDB URL and other environment variables like JWT Secret and Client URL.
+6. Create a .env file in the API directory and add your MongoDB URL, JWT Secret and Client URL.
 7. Start the backend server:
 ```bash
 nodemon index.js
